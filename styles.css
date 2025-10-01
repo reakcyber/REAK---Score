@@ -206,7 +206,7 @@ thead th {
 /* Specific device viewport: 375×667 (e.g. iPhone 8 portrait)
    This targets exact viewport dimensions and applies small adjustments
    without overriding broader mobile rules. */
-@media (width: 375px) and (height: 667px) and (orientation: portrait) {
+/* @media (width: 375px) and (height: 667px) and (orientation: portrait) {
   body {
     margin: 6px;
     font-size: 15px;
@@ -245,7 +245,7 @@ thead th {
     padding: 8px;
     margin-bottom: 10px;
   }
-}
+} */
 
 /* Safe-area and iOS scrolling improvements for notched devices (iPhone X, etc.) */
 
@@ -260,4 +260,5 @@ body {
   padding-left: max(12px, env(safe-area-inset-left));
   padding-right: max(12px, env(safe-area-inset-right));
 }
+
 
